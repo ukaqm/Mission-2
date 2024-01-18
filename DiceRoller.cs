@@ -11,7 +11,7 @@ class DiceRoller
     private Random rand = new Random();
     public int[] RollDice(int numRolls)
     {
-        // Creates an array to store the number of times a number was rolled
+        // Creates an array to store the amount of times a number was rolled
         // Only indices 2-12 are used
         int[] rollCounts = new int[13]; 
 
